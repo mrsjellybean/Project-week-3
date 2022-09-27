@@ -105,6 +105,13 @@ h2 {
 .sizing-image {
   height: 595px;
 }
+.aligning-mail {
+  margin-left: 350px;
+}
+.size {
+  width: 420px;
+  height: 560px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -124,8 +131,7 @@ h2 {
   .hero {
     padding: 80px 20px;
   }
-}
-.size {
-  width: 420px;
-  height: 560px;
+  .aligning-mail {
+    margin: 0;
+  }
 }
